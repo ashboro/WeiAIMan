@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-10-27T07:27:11.190Z",
+  "score": 95,
+  "grade": "A",
+  "pageTitle": "PulseCore AI — Autonomous Cloud Infrastructure & Cost Engine",
+  "metaDescription": "Eliminate cloud waste and accelerate release velocity with PulseCore",
+  "schemaType": "SoftwareApplication",
+  "h1Count": 1,
+  "h2Count": 5,
+  "h3Count": 3,
+  "imagesTotal": 3,
+  "imagesWithAlt": 3,
+  "checksPassed": 8,
+  "warnings": 1,
+  "failures": 0,
+  "detailedChecks": [
+    {
+      "category": "Meta Tags",
+      "name": "Page Title",
+      "status": "pass",
+      "message": "Optimal title length (60 chars): \"PulseCore AI — Autonomous Cloud Infrastructure & Cost Engine\"",
+      "impact": 0
+    },
+    {
+      "category": "Meta Tags",
+      "name": "Meta Description Length",
+      "status": "warning",
+      "message": "Description is 68 chars (Recommended: 130-160 chars).",
+      "impact": 5
+    },
+    {
+      "category": "Mobile & UX",
+      "name": "Viewport Meta Tag",
+      "status": "pass",
+      "message": "Mobile viewport configured properly for responsive rendering.",
+      "impact": 0
+    },
+    {
+      "category": "Social Share",
+      "name": "OpenGraph Tags",
+      "status": "pass",
+      "message": "Complete OpenGraph tags (og:title, og:description, og:image) for LinkedIn & Facebook.",
+      "impact": 0
+    },
+    {
+      "category": "Social Share",
+      "name": "Twitter Card",
+      "status": "pass",
+      "message": "Twitter card meta tag detected (summary_large_image).",
+      "impact": 0
+    },
+    {
+      "category": "Indexing",
+      "name": "Canonical Tag",
+      "status": "pass",
+      "message": "Canonical URL is set to prevent duplicate content penalties.",
+      "impact": 0
+    },
+    {
+      "category": "Rich Snippets",
+      "name": "Schema.org JSON-LD",
+      "status": "pass",
+      "message": "Valid Schema.org structured data detected (Type: SoftwareApplication). Qualifies for Google rich snippets.",
+      "impact": 0
+    },
+    {
+      "category": "Content Structure",
+      "name": "H1 Heading",
+      "status": "pass",
+      "message": "Exactly 1 H1 tag found. Excellent semantic SEO structure.",
+      "impact": 0
+    },
+    {
+      "category": "Accessibility & SEO",
+      "name": "Image Alt Attributes",
+      "status": "pass",
+      "message": "All 3 images have descriptive alt attributes.",
+      "impact": 0
+    }
+  ]
+}
