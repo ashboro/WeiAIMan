@@ -1,578 +1,200 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PulseCore AI — Autonomous Cloud Infrastructure & Cost Engine</title>
-  <meta name="description" content="Eliminate cloud waste and accelerate release velocity with PulseCore's autonomous AI infrastructure intelligence. Trusted by 2,400+ high-growth engineering teams.">
-  <meta name="keywords" content="cloud optimization, AI DevOps, Kubernetes autoscaling, AWS cost reduction, serverless telemetry, Site Reliability Engineering">
-  <meta name="author" content="PulseCore Systems">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://pulsecore.ai">
-  
-  <!-- OpenGraph Metadata -->
-  <meta property="og:site_name" content="PulseCore AI">
-  <meta property="og:title" content="PulseCore AI — Autonomous Cloud Infrastructure & Cost Engine">
-  <meta property="og:description" content="Eliminate cloud waste and accelerate release velocity with autonomous AI infrastructure optimization.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://pulsecore.ai">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wei AI Men — Strategic Enterprise AI Consulting & Swarms</title>
+    <meta name="description" content="Accelerate enterprise transformation with Wei AI Men. Custom LLMs, autonomous agent swarms, and AI governance trusted by government and education leaders.">
+    <meta name="keywords" content="Wei AI Men, AI Consulting, Enterprise AI, LLM deployment, autonomous agents, AI governance, Microsoft Azure AI, Digital Transformation">
+    <link rel="canonical" href="https://weiaimen.com">
+    
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Wei AI Men — Strategic Enterprise AI Consulting">
+    <meta property="og:description" content="Bridging the gap between AI potential and enterprise reality.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Twitter Card Metadata -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PulseCore AI — Autonomous Cloud Infrastructure & Cost Engine">
-  <meta name="twitter:description" content="Cut cloud bills by 42% while guaranteeing 99.999% SLA uptime.">
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80">
-
-  <!-- Favicon SVG Data URI -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%234f46e5'/><path d='M30 50L45 65L70 35' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/></svg>">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              50: '#eef2ff',
-              100: '#e0e7ff',
-              400: '#818cf8',
-              500: '#6366f1',
-              600: '#4f46e5',
-              700: '#4338ca',
-            },
-            surface: {
-              900: '#0b0f19',
-              800: '#111827',
-              700: '#1f2937',
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { DEFAULT: '#4f46e5', dark: '#3730a3' },
+                        accent: { DEFAULT: '#06b6d4' },
+                        surface: { DEFAULT: '#0f172a', secondary: '#1e293b' }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
             }
-          }
         }
-      }
-    }
-  </script>
-
-  <!-- Schema.org JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "PulseCore AI",
-    "operatingSystem": "All Cloud Environments (AWS, GCP, Azure, Kubernetes)",
-    "applicationCategory": "DevOpsApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "49.00",
-      "priceCurrency": "USD"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "ratingCount": "340"
-    },
-    "description": "Autonomous AI engine that optimizes cloud workloads, cuts compute latency, and reduces cloud spend."
-  }
-  </script>
-
-  <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
-    .glow-indigo {
-      box-shadow: 0 0 50px -10px rgba(99, 102, 241, 0.25);
-    }
-  </style>
+    </script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 </head>
+<body class="antialiased">
 
-<body class="bg-[#0b0f19] text-slate-100 antialiased selection:bg-brand-500 selection:text-white">
-
-  <!-- Announcement Bar -->
-  <aside aria-label="Announcement" class="bg-gradient-to-r from-brand-600 via-indigo-600 to-purple-600 text-xs font-semibold py-2 px-4 text-center tracking-wide">
-    <span class="inline-flex items-center gap-2">
-      <span class="bg-white/20 px-2 py-0.5 rounded-full uppercase text-[10px] tracking-wider">v3.2 Live</span>
-      Announcing Predictive Cluster Tuning with 99.999% SLA Assurance.
-      <a href="#features" class="underline hover:text-white/80 transition-colors">Explore Benchmarks &rarr;</a>
-    </span>
-  </aside>
-
-  <!-- Navigation -->
-  <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#0b0f19]/80 border-b border-slate-800/80 transition-all">
-    <nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between" aria-label="Main Navigation">
-      <!-- Logo -->
-      <a href="#" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-brand-500/30 group-hover:scale-105 transition-transform">
-          ⚡
+    <!-- Nav -->
+    <nav class="fixed w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold font-heading tracking-tighter">Wei<span class="text-accent">AI</span>Men</a>
+            <div class="hidden md:flex gap-8 font-medium text-sm">
+                <a href="#about" class="hover:text-accent transition">About</a>
+                <a href="#services" class="hover:text-accent transition">Services</a>
+                <a href="#pricing" class="hover:text-accent transition">Pricing</a>
+                <a href="#contact" class="bg-brand px-5 py-2 rounded-full hover:bg-brand-dark transition">Get Started</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden">Menu</button>
         </div>
-        <div>
-          <span class="font-extrabold text-xl tracking-tight text-white">PulseCore<span class="text-brand-400">.ai</span></span>
-          <span class="block text-[10px] uppercase font-bold text-slate-400 tracking-wider">Cloud Autonomous</span>
-        </div>
-      </a>
-
-      <!-- Desktop Menu Links -->
-      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-        <a href="#features" class="hover:text-white transition-colors">Features</a>
-        <a href="#how-it-works" class="hover:text-white transition-colors">Architecture</a>
-        <a href="#social-proof" class="hover:text-white transition-colors">Customers</a>
-        <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
-        <a href="#faq" class="hover:text-white transition-colors">FAQ</a>
-      </div>
-
-      <!-- Action Buttons -->
-      <div class="hidden md:flex items-center gap-4">
-        <a href="#contact" class="text-sm font-semibold text-slate-300 hover:text-white transition-colors">Sign In</a>
-        <a href="#pricing" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-sm transition-all shadow-lg shadow-brand-600/30 hover:shadow-brand-500/50 hover:-translate-y-0.5">
-          Deploy Cluster Free
-        </a>
-      </div>
-
-      <!-- Mobile Hamburger Button -->
-      <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition" aria-label="Toggle navigation menu" aria-expanded="false">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-        </svg>
-      </button>
     </nav>
 
-    <!-- Mobile Drawer Menu -->
-    <div id="mobileDrawer" class="hidden md:hidden bg-[#0e1424] border-b border-slate-800 px-6 py-6 space-y-4">
-      <a href="#features" class="block text-slate-200 hover:text-brand-400 font-medium py-1">Features</a>
-      <a href="#how-it-works" class="block text-slate-200 hover:text-brand-400 font-medium py-1">Architecture</a>
-      <a href="#social-proof" class="block text-slate-200 hover:text-brand-400 font-medium py-1">Customers</a>
-      <a href="#pricing" class="block text-slate-200 hover:text-brand-400 font-medium py-1">Pricing</a>
-      <a href="#faq" class="block text-slate-200 hover:text-brand-400 font-medium py-1">FAQ</a>
-      <a href="#contact" class="block text-slate-200 hover:text-brand-400 font-medium py-1">Contact Sales</a>
-      <div class="pt-4 border-t border-slate-800">
-        <a href="#pricing" class="w-full text-center block px-5 py-3 rounded-xl bg-brand-600 text-white font-semibold text-sm">Deploy Cluster Free</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <main>
-    <section class="relative pt-20 pb-28 overflow-hidden">
-      <!-- Glow Gradients -->
-      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-gradient-to-tr from-brand-600/20 to-purple-600/20 blur-[130px] -z-10 rounded-full pointer-events-none"></div>
-
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <!-- Hero Badge -->
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-500/30 bg-brand-500/10 text-brand-300 text-xs font-semibold uppercase tracking-wider mb-8">
-          <span class="w-2 h-2 rounded-full bg-brand-400 animate-ping"></span>
-          Autonomous Cloud Optimization
-        </div>
-
-        <!-- Main H1 Heading -->
-        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.1] max-w-4xl mx-auto">
-          Cut Cloud Compute Costs by <span class="bg-gradient-to-r from-brand-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent">42%</span> in Real Time.
-        </h1>
-
-        <!-- Subheading -->
-        <p class="mt-8 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto font-normal leading-relaxed">
-          PulseCore injects deep reinforcement learning agents into your Kubernetes and serverless meshes, rightsizing memory, CPU headroom, and spot fleets without downtime.
-        </p>
-
-        <!-- CTA Action Buttons -->
-        <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="#pricing" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-base transition-all shadow-xl shadow-brand-600/30 hover:shadow-brand-500/50 hover:-translate-y-0.5 flex items-center justify-center gap-2">
-            <span>Start Free 14-Day Pilot</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-          </a>
-          <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 font-semibold text-base transition flex items-center justify-center gap-2">
-            <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            <span>Request Live Benchmark</span>
-          </a>
-        </div>
-
-        <!-- Social Proof Stats Bar -->
-        <div class="mt-16 pt-10 border-t border-slate-800/80 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-          <div>
-            <div class="text-3xl font-extrabold text-white tracking-tight">$38M+</div>
-            <div class="text-xs uppercase font-semibold text-slate-400 mt-1">Cloud Spend Saved</div>
-          </div>
-          <div>
-            <div class="text-3xl font-extrabold text-brand-400 tracking-tight">4.2 min</div>
-            <div class="text-xs uppercase font-semibold text-slate-400 mt-1">Mean Time to Connect</div>
-          </div>
-          <div>
-            <div class="text-3xl font-extrabold text-white tracking-tight">99.999%</div>
-            <div class="text-xs uppercase font-semibold text-slate-400 mt-1">SLA Guarantee</div>
-          </div>
-          <div>
-            <div class="text-3xl font-extrabold text-indigo-400 tracking-tight">Zero</div>
-            <div class="text-xs uppercase font-semibold text-slate-400 mt-1">Code Changes Needed</div>
-          </div>
-        </div>
-
-        <!-- Hero Preview Mockup -->
-        <div class="mt-16 max-w-5xl mx-auto rounded-2xl p-2 bg-gradient-to-b from-slate-700/50 to-slate-800/20 border border-slate-700/60 shadow-2xl glow-indigo">
-          <div class="rounded-xl overflow-hidden bg-slate-900 border border-slate-800 text-left">
-            <div class="bg-slate-950/90 px-4 py-3 border-b border-slate-800 flex items-center justify-between">
-              <div class="flex items-center gap-2">
-                <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
-                <div class="w-3 h-3 rounded-full bg-amber-500/80"></div>
-                <div class="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-                <span class="text-xs text-slate-400 font-mono ml-2">pulsecore-agent://cluster-prod-eu-west-1</span>
-              </div>
-              <span class="text-xs font-mono text-emerald-400 bg-emerald-950/60 border border-emerald-800/80 px-2 py-0.5 rounded">● 14 Pods Optimized Now</span>
+    <!-- Hero -->
+    <section class="pt-32 pb-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="px-3 py-1 rounded-full border border-accent/30 text-accent text-xs font-semibold uppercase tracking-widest mb-6 inline-block">Enterprise AI Strategy & Delivery</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold font-heading mb-8 leading-tight">Bridging the gap between <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand to-accent">AI potential and enterprise reality.</span></h1>
+            <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">Wei AI Men helps organizations identify opportunities, implement responsible AI, and build internal capability across the public and private sectors.</p>
+            <div class="flex gap-4 justify-center">
+                <a href="#contact" class="bg-brand px-8 py-4 rounded-lg font-semibold hover:bg-brand-dark transition">Consult an Expert</a>
+                <a href="#about" class="border border-slate-700 px-8 py-4 rounded-lg hover:bg-slate-800 transition">View Capabilities</a>
             </div>
-            <div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-4 font-mono text-xs">
-              <div class="bg-slate-950/60 p-4 rounded-lg border border-slate-800">
-                <span class="text-slate-400 block mb-1">Active Memory Footprint</span>
-                <span class="text-xl font-bold text-white">41.8 GB <span class="text-xs text-emerald-400 font-normal">(-58%)</span></span>
-                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-3 overflow-hidden">
-                  <div class="bg-brand-500 h-full w-[42%]"></div>
+        </div>
+    </section>
+
+    <!-- Features / Pillars -->
+    <section id="about" class="py-20 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-heading font-bold mb-16 text-center">The Four Pillars of Maturity</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-8 rounded-2xl glass">
+                    <h3 class="text-xl font-bold mb-4 text-accent">Strategy</h3>
+                    <p class="text-slate-400">AI readiness assessments, roadmap development, and ROI modelling to ensure business alignment.</p>
                 </div>
-              </div>
-              <div class="bg-slate-950/60 p-4 rounded-lg border border-slate-800">
-                <span class="text-slate-400 block mb-1">P99 Microservice Latency</span>
-                <span class="text-xl font-bold text-emerald-400">12.4 ms <span class="text-xs text-slate-400 font-normal">(baseline 24ms)</span></span>
-                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-3 overflow-hidden">
-                  <div class="bg-emerald-500 h-full w-[65%]"></div>
+                <div class="p-8 rounded-2xl glass">
+                    <h3 class="text-xl font-bold mb-4 text-accent">Data</h3>
+                    <p class="text-slate-400">Governance frameworks, data quality improvement, and robust architecture for secure AI training.</p>
                 </div>
-              </div>
-              <div class="bg-slate-950/60 p-4 rounded-lg border border-slate-800">
-                <span class="text-slate-400 block mb-1">Predicted Monthly Run Rate</span>
-                <span class="text-xl font-bold text-white">$4,820 <span class="text-xs text-brand-400 font-normal">saved $3,400</span></span>
-                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-3 overflow-hidden">
-                  <div class="bg-indigo-500 h-full w-[38%]"></div>
+                <div class="p-8 rounded-2xl glass">
+                    <h3 class="text-xl font-bold mb-4 text-accent">Technology</h3>
+                    <p class="text-slate-400">LLM deployment, Copilot integration, and intelligent automation using Azure/AWS/GCP stacks.</p>
                 </div>
-              </div>
+                <div class="p-8 rounded-2xl glass">
+                    <h3 class="text-xl font-bold mb-4 text-accent">People</h3>
+                    <p class="text-slate-400">Change management, AI literacy training, and building Centers of Excellence (CoE).</p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="py-24 bg-slate-900/50 border-y border-slate-800">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center max-w-3xl mx-auto">
-          <span class="text-brand-400 text-xs font-bold uppercase tracking-widest">Enterprise Architecture</span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Built for High-Stakes Production Meshes</h2>
-          <p class="text-slate-400 mt-4 text-base">Never compromise on customer latency or resilience. Automated adjustments take effect dynamically at the kernel cgroup level.</p>
+    <!-- Pricing (Service Catalogue) -->
+    <section id="pricing" class="py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl font-heading font-bold mb-12 text-center">Engagement Models</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border border-slate-800 p-8 rounded-2xl">
+                    <h3 class="text-lg font-bold mb-2">Discovery</h3>
+                    <p class="text-sm text-slate-400 mb-6">For teams defining their AI footprint.</p>
+                    <ul class="space-y-3 text-sm text-slate-300">
+                        <li>• AI Readiness Assessment</li>
+                        <li>• Opportunity Prioritization</li>
+                        <li>• Business Case & ROI</li>
+                    </ul>
+                </div>
+                <div class="border-2 border-brand p-8 rounded-2xl relative shadow-2xl shadow-brand/10">
+                    <span class="absolute -top-3 left-6 bg-brand px-3 py-1 text-xs rounded-full">POPULAR</span>
+                    <h3 class="text-lg font-bold mb-2">Implementation</h3>
+                    <p class="text-sm text-slate-400 mb-6">Full-cycle delivery & integration.</p>
+                    <ul class="space-y-3 text-sm text-slate-300">
+                        <li>• Copilot Deployment</li>
+                        <li>• Custom LLM Training</li>
+                        <li>• Integration with ERP/MIS</li>
+                    </ul>
+                </div>
+                <div class="border border-slate-800 p-8 rounded-2xl">
+                    <h3 class="text-lg font-bold mb-2">Governance</h3>
+                    <p class="text-sm text-slate-400 mb-6">Risk mitigation & compliance.</p>
+                    <ul class="space-y-3 text-sm text-slate-300">
+                        <li>• AI Risk Assessment</li>
+                        <li>• Responsible AI Framework</li>
+                        <li>• Ethics & Audit Support</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <!-- Card 1 -->
-          <div class="p-8 rounded-2xl bg-slate-800/40 border border-slate-700/50 hover:border-brand-500/50 transition-all hover:-translate-y-1 group">
-            <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-2xl group-hover:bg-brand-500 group-hover:text-white transition-colors">
-              ⚙️
-            </div>
-            <h3 class="text-xl font-bold text-white mt-6">Autonomous Rightsizing</h3>
-            <p class="text-slate-400 text-sm mt-3 leading-relaxed">
-              Dynamically scales JVM heap allocations, Node.js memory ceilings, and container limits based on predictive traffic harmonics.
-            </p>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="p-8 rounded-2xl bg-slate-800/40 border border-slate-700/50 hover:border-brand-500/50 transition-all hover:-translate-y-1 group">
-            <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-2xl group-hover:bg-brand-500 group-hover:text-white transition-colors">
-              🛡️
-            </div>
-            <h3 class="text-xl font-bold text-white mt-6">Zero-Risk Graceful Rollback</h3>
-            <p class="text-slate-400 text-sm mt-3 leading-relaxed">
-              Every memory reallocation is guarded by continuous canary telemetry. Any spike in error rates triggers instantaneous sub-second rollbacks.
-            </p>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="p-8 rounded-2xl bg-slate-800/40 border border-slate-700/50 hover:border-brand-500/50 transition-all hover:-translate-y-1 group">
-            <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-2xl group-hover:bg-brand-500 group-hover:text-white transition-colors">
-              📊
-            </div>
-            <h3 class="text-xl font-bold text-white mt-6">FinOps Executive Attribution</h3>
-            <p class="text-slate-400 text-sm mt-3 leading-relaxed">
-              Attribute exact dollar costs down to every microservice, engineering squad, pull request, and customer tenant with real-time Slack digests.
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <!-- Social Proof Section -->
-    <section id="social-proof" class="py-24">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <span class="text-brand-400 text-xs font-bold uppercase tracking-widest">Customer Validation</span>
-          <h2 class="text-3xl font-extrabold text-white mt-2">Trusted by Infrastructure Leaders</h2>
+    <!-- FAQ -->
+    <section class="py-20 bg-slate-900/50">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-4xl font-heading font-bold mb-12 text-center">Common Questions</h2>
+            <div class="space-y-4" id="faq">
+                <div class="border border-slate-800 rounded-xl overflow-hidden">
+                    <button class="w-full text-left p-6 font-semibold flex justify-between" onclick="toggleFaq(this)">
+                        Does Wei AI Men build standalone pilots?
+                        <span>+</span>
+                    </button>
+                    <div class="hidden p-6 pt-0 text-slate-400 text-sm">We focus on integrating AI into your existing enterprise systems rather than isolated sandboxes to ensure real-world scalability and ROI.</div>
+                </div>
+                <div class="border border-slate-800 rounded-xl overflow-hidden">
+                    <button class="w-full text-left p-6 font-semibold flex justify-between" onclick="toggleFaq(this)">
+                        Do you specialize in specific sectors?
+                        <span>+</span>
+                    </button>
+                    <div class="hidden p-6 pt-0 text-slate-400 text-sm">Yes, we have deep expertise in the public sector, education (EdTech), finance, and manufacturing, specifically regarding interoperability and data governance.</div>
+                </div>
+            </div>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <!-- Testimonial 1 -->
-          <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
-            <p class="text-slate-300 text-sm italic leading-relaxed">
-              "PulseCore reduced our AWS EKS invoice from $185,000/mo to $108,000/mo within our first 30 days. It paid for itself 10x over on day one."
-            </p>
-            <div class="mt-6 flex items-center gap-3">
-              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Sarah Chen" class="w-10 h-10 rounded-full object-cover border border-brand-500/40">
-              <div>
-                <div class="text-sm font-bold text-white">Sarah Chen</div>
-                <div class="text-xs text-slate-400">VP Infrastructure, HyperScale Pay</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial 2 -->
-          <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
-            <p class="text-slate-300 text-sm italic leading-relaxed">
-              "The canary rollback guarantee gave our SRE team the confidence to enable autonomous autoscaling in production. Our P99 latency actually improved by 22%."
-            </p>
-            <div class="mt-6 flex items-center gap-3">
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Marcus Vance" class="w-10 h-10 rounded-full object-cover border border-brand-500/40">
-              <div>
-                <div class="text-sm font-bold text-white">Marcus Vance</div>
-                <div class="text-xs text-slate-400">Head of Platform, CloudData.io</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial 3 -->
-          <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
-            <p class="text-slate-300 text-sm italic leading-relaxed">
-              "Integration took 15 minutes using their Helm chart. No code rewrites, no agent downtime. The clearest ROI tool in our entire devops stack."
-            </p>
-            <div class="mt-6 flex items-center gap-3">
-              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&q=80" alt="Elena Rostova" class="w-10 h-10 rounded-full object-cover border border-brand-500/40">
-              <div>
-                <div class="text-sm font-bold text-white">Elena Rostova</div>
-                <div class="text-xs text-slate-400">Principal Architect, NextCommerce</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="py-24 bg-slate-900/40 border-t border-slate-800">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <span class="text-brand-400 text-xs font-bold uppercase tracking-widest">Predictable Pricing</span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Invest in ROI, Not Bloated Overhead</h2>
-          <p class="text-slate-400 mt-3 text-sm">All plans include our 100% money-back savings guarantee.</p>
+    <!-- Contact -->
+    <section id="contact" class="py-20">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-heading font-bold mb-8">Ready to transform?</h2>
+            <form id="contactForm" class="space-y-4">
+                <input type="text" placeholder="Your Name" class="w-full p-4 bg-slate-900 border border-slate-700 rounded-lg focus:border-accent outline-none">
+                <input type="email" placeholder="Work Email" class="w-full p-4 bg-slate-900 border border-slate-700 rounded-lg focus:border-accent outline-none">
+                <textarea placeholder="Tell us about your AI goals" class="w-full p-4 bg-slate-900 border border-slate-700 rounded-lg h-32 focus:border-accent outline-none"></textarea>
+                <button type="submit" class="w-full bg-accent text-slate-900 font-bold py-4 rounded-lg hover:bg-cyan-400 transition">Send Inquiry</button>
+            </form>
+            <div id="successMsg" class="hidden mt-6 p-4 bg-green-900/20 text-green-400 rounded-lg">Thank you! Your inquiry has been received.</div>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <!-- Starter -->
-          <div class="p-8 rounded-2xl bg-slate-800/40 border border-slate-700/60 flex flex-col justify-between">
-            <div>
-              <div class="text-lg font-bold text-white">Developer Pilot</div>
-              <div class="text-slate-400 text-xs mt-1">For single clusters & pre-production</div>
-              <div class="mt-6 text-4xl font-extrabold text-white">$0<span class="text-sm text-slate-400 font-normal"> / 14 days</span></div>
-              <ul class="mt-8 space-y-3 text-sm text-slate-300">
-                <li class="flex items-center gap-2">✓ Up to 10 Nodes</li>
-                <li class="flex items-center gap-2">✓ Rightsizing Recommendations</li>
-                <li class="flex items-center gap-2">✓ Weekly Cost Audit PDF</li>
-              </ul>
-            </div>
-            <a href="#contact" class="mt-8 block text-center py-3 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-semibold text-sm transition">Start Pilot</a>
-          </div>
-
-          <!-- Growth (Highlighted) -->
-          <div class="p-8 rounded-2xl bg-gradient-to-b from-brand-900/30 via-slate-800/80 to-slate-900 border-2 border-brand-500 shadow-xl shadow-brand-500/20 relative flex flex-col justify-between">
-            <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-500 text-white text-[11px] font-extrabold uppercase px-3 py-1 rounded-full tracking-wider">Most Popular</span>
-            <div>
-              <div class="text-lg font-bold text-white">Autonomous Pro</div>
-              <div class="text-slate-400 text-xs mt-1">For scale-ups running mission-critical workloads</div>
-              <div class="mt-6 text-4xl font-extrabold text-white">$249<span class="text-sm text-slate-400 font-normal"> / month</span></div>
-              <ul class="mt-8 space-y-3 text-sm text-slate-200">
-                <li class="flex items-center gap-2">✓ Unlimited Kubernetes Clusters</li>
-                <li class="flex items-center gap-2">✓ Live Autonomous Kernel Tuning</li>
-                <li class="flex items-center gap-2">✓ Sub-second Canary Rollback</li>
-                <li class="flex items-center gap-2">✓ Slack / PagerDuty Alert Engine</li>
-                <li class="flex items-center gap-2">✓ 99.999% SLA Assurance</li>
-              </ul>
-            </div>
-            <a href="#contact" class="mt-8 block text-center py-3.5 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-sm transition shadow-lg shadow-brand-600/30">Deploy Cluster Now</a>
-          </div>
-
-          <!-- Enterprise -->
-          <div class="p-8 rounded-2xl bg-slate-800/40 border border-slate-700/60 flex flex-col justify-between">
-            <div>
-              <div class="text-lg font-bold text-white">Enterprise Grid</div>
-              <div class="text-slate-400 text-xs mt-1">For multi-cloud estates & strict compliance</div>
-              <div class="mt-6 text-4xl font-extrabold text-white">Custom<span class="text-sm text-slate-400 font-normal"> / annual</span></div>
-              <ul class="mt-8 space-y-3 text-sm text-slate-300">
-                <li class="flex items-center gap-2">✓ Dedicated SRE Solutions Engineer</li>
-                <li class="flex items-center gap-2">✓ Custom On-Prem / VPC Airgap Deployment</li>
-                <li class="flex items-center gap-2">✓ SOC2 Type II & FedRAMP Compliance</li>
-                <li class="flex items-center gap-2">✓ Contractual 35% Savings Guarantee</li>
-              </ul>
-            </div>
-            <a href="#contact" class="mt-8 block text-center py-3 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-semibold text-sm transition">Talk to Solutions Architect</a>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <!-- Interactive FAQ Accordion -->
-    <section id="faq" class="py-24 max-w-4xl mx-auto px-6">
-      <div class="text-center mb-16">
-        <span class="text-brand-400 text-xs font-bold uppercase tracking-widest">Answers & Clarity</span>
-        <h2 class="text-3xl font-extrabold text-white mt-2">Frequently Asked Questions</h2>
-      </div>
+    <footer class="py-12 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2024 Wei AI Men. All rights reserved.</p>
+    </footer>
 
-      <div class="space-y-4" id="faqAccordion">
-        <!-- FAQ item 1 -->
-        <div class="border border-slate-800 rounded-xl overflow-hidden bg-slate-900/60">
-          <button class="w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-white focus:outline-none faq-toggle" aria-expanded="false">
-            <span>Does PulseCore require installing heavy daemons on every node?</span>
-            <span class="text-xl text-brand-400 font-bold ml-4 transform transition-transform duration-200 icon">+</span>
-          </button>
-          <div class="px-6 pb-5 text-sm text-slate-400 hidden content leading-relaxed">
-            No. PulseCore installs as a lightweight eBPF telemetry controller in your cluster with less than 0.1% CPU overhead. It requires no agent changes or code instrumentation in your application repositories.
-          </div>
-        </div>
-
-        <!-- FAQ item 2 -->
-        <div class="border border-slate-800 rounded-xl overflow-hidden bg-slate-900/60">
-          <button class="w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-white focus:outline-none faq-toggle" aria-expanded="false">
-            <span>What happens if an autonomous change causes an OOM exception?</span>
-            <span class="text-xl text-brand-400 font-bold ml-4 transform transition-transform duration-200 icon">+</span>
-          </button>
-          <div class="px-6 pb-5 text-sm text-slate-400 hidden content leading-relaxed">
-            Our predictive safety model simulates memory spikes 15 minutes before executing rightsizing. If any container approaches 85% of its allocated threshold during traffic surges, headroom is automatically restored within 250 milliseconds.
-          </div>
-        </div>
-
-        <!-- FAQ item 3 -->
-        <div class="border border-slate-800 rounded-xl overflow-hidden bg-slate-900/60">
-          <button class="w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-white focus:outline-none faq-toggle" aria-expanded="false">
-            <span>Can we connect multiple AWS, GCP, and Azure accounts?</span>
-            <span class="text-xl text-brand-400 font-bold ml-4 transform transition-transform duration-200 icon">+</span>
-          </button>
-          <div class="px-6 pb-5 text-sm text-slate-400 hidden content leading-relaxed">
-            Yes. You can manage multi-cloud accounts, hybrid on-prem Kubernetes, and OpenShift clusters through a single unified pane of glass with granular RBAC permissions.
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact & Lead Form -->
-    <section id="contact" class="py-24 bg-slate-900/60 border-t border-slate-800">
-      <div class="max-w-3xl mx-auto px-6">
-        <div class="p-8 sm:p-12 rounded-3xl bg-slate-800/50 border border-slate-700/80 shadow-2xl relative">
-          <div class="text-center mb-8">
-            <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Experience Autonomous Optimization</h2>
-            <p class="text-slate-400 text-sm mt-2">Connect your sandbox cluster or request a tailored benchmark for your infrastructure.</p>
-          </div>
-
-          <form id="contactForm" class="space-y-4">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label for="fullName" class="block text-xs font-semibold uppercase text-slate-300 mb-1">Full Name</label>
-                <input type="text" id="fullName" required placeholder="Alex Rivera" class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white placeholder-slate-500 text-sm focus:border-brand-500 focus:outline-none">
-              </div>
-              <div>
-                <label for="workEmail" class="block text-xs font-semibold uppercase text-slate-300 mb-1">Work Email</label>
-                <input type="email" id="workEmail" required placeholder="alex@company.com" class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white placeholder-slate-500 text-sm focus:border-brand-500 focus:outline-none">
-              </div>
-            </div>
-
-            <div>
-              <label for="cloudSpend" class="block text-xs font-semibold uppercase text-slate-300 mb-1">Monthly Cloud Spend</label>
-              <select id="cloudSpend" class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white text-sm focus:border-brand-500 focus:outline-none">
-                <option value="under10k">&lt; $10,000 / month</option>
-                <option value="10k-50k">$10,000 – $50,000 / month</option>
-                <option value="50k-200k">$50,000 – $200,000 / month</option>
-                <option value="200k-plus">&gt; $200,000 / month (Enterprise)</option>
-              </select>
-            </div>
-
-            <button type="submit" class="w-full py-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-sm tracking-wide transition shadow-lg shadow-brand-600/30">
-              Schedule Architecture Review & Free Pilot
-            </button>
-          </form>
-
-          <!-- Toast Notification -->
-          <div id="formToast" class="hidden mt-4 p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/80 text-emerald-200 text-sm flex items-center gap-3">
-            <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <span>Inquiry received! Our infrastructure solutions architect will reach out within 2 hours.</span>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="border-t border-slate-800 bg-[#070b14] py-12 text-slate-400 text-xs">
-    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
-      <div class="flex items-center gap-2">
-        <span class="font-bold text-white text-sm">PulseCore AI</span>
-        <span>— © 2026 PulseCore Systems Inc. All rights reserved.</span>
-      </div>
-      <div class="flex items-center gap-6">
-        <a href="#features" class="hover:text-white transition">Architecture</a>
-        <a href="#pricing" class="hover:text-white transition">Pricing</a>
-        <a href="#faq" class="hover:text-white transition">Documentation</a>
-        <a href="#" class="hover:text-white transition">Privacy Policy</a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Interactive Scripts -->
-  <script>
-    // 1. Mobile Menu Drawer
-    const mobileBtn = document.getElementById('mobileMenuBtn');
-    const mobileDrawer = document.getElementById('mobileDrawer');
-    if (mobileBtn && mobileDrawer) {
-      mobileBtn.addEventListener('click', () => {
-        const isExpanded = mobileBtn.getAttribute('aria-expanded') === 'true';
-        mobileBtn.setAttribute('aria-expanded', !isExpanded);
-        mobileDrawer.classList.toggle('hidden');
-      });
-    }
-
-    // 2. Interactive FAQ Accordion
-    document.querySelectorAll('.faq-toggle').forEach(button => {
-      button.addEventListener('click', () => {
-        const content = button.nextElementSibling;
-        const icon = button.querySelector('.icon');
-        const isExpanded = button.getAttribute('aria-expanded') === 'true';
-
-        // Close other FAQs
-        document.querySelectorAll('.faq-toggle').forEach(otherBtn => {
-          if (otherBtn !== button) {
-            otherBtn.setAttribute('aria-expanded', 'false');
-            otherBtn.nextElementSibling.classList.add('hidden');
-            const otherIcon = otherBtn.querySelector('.icon');
-            if (otherIcon) otherIcon.textContent = '+';
-          }
-        });
-
-        if (isExpanded) {
-          button.setAttribute('aria-expanded', 'false');
-          content.classList.add('hidden');
-          if (icon) icon.textContent = '+';
-        } else {
-          button.setAttribute('aria-expanded', 'true');
-          content.classList.remove('hidden');
-          if (icon) icon.textContent = '−';
+    <script>
+        function toggleFaq(btn) {
+            const content = btn.nextElementSibling;
+            content.classList.toggle('hidden');
         }
-      });
-    });
 
-    // 3. Contact Form Submission Feedback
-    const contactForm = document.getElementById('contactForm');
-    const formToast = document.getElementById('formToast');
-    if (contactForm && formToast) {
-      contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        formToast.classList.remove('hidden');
-        contactForm.reset();
-        setTimeout(() => {
-          formToast.classList.add('hidden');
-        }, 6000);
-      });
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            document.getElementById('contactForm').classList.add('hidden');
+            document.getElementById('successMsg').classList.remove('hidden');
+        });
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Wei AI Men",
+      "description": "Strategic AI consulting for enterprise digital transformation.",
+      "url": "https://weiaimen.com"
     }
-  </script>
+    </script>
 </body>
 </html>

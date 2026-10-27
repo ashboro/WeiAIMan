@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Direct search bots to XML sitemap
-Sitemap: https://pulsecore.ai/sitemap.xml
+Sitemap: https://weiaimen.com/sitemap.xml
